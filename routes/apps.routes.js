@@ -6,6 +6,6 @@ router.post("/list", appController.listApplications);
 router.post("/view", appController.viewApplication);
 router.post("/add", appController.createApplication);
 router.put("/update", appController.updateApplication);
-router.delete("/delete", appController.deleteApplication);
+// router.delete("/delete", appController.deleteApplication);
 
 module.exports = router;

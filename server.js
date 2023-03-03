@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: ["http://localhost:4200",],
+    origin: ["http://localhost:4200","https://pragathpth.me"],
     // credentials: true,
   })
 );
