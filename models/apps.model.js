@@ -49,7 +49,7 @@ const ApplicationSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     }
-});
+},{ timestamps: true });
 
 const Application = mongoose.model('Application', ApplicationSchema,'apps');
 
